@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline-Iframe</title>
+</head>
+
+<body>
+    <h4>
+        Click the Counter button to increase the Count value in the parent frame
+    </h4>
+    <button onclick="window.parent.postMessage('<YourMessageToParentWindow>')">Increase counter</button>
+</body>
+
+
+</html>
+
